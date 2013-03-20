@@ -77,9 +77,6 @@ node default {
   # erlang
   include erlang
 
-  # vim
-  include vim
-
   # terminal stuff
   include autojump
 
