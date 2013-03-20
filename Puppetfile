@@ -46,7 +46,7 @@ github "libtool",        "1.0.0"
 github "repository",     "1.0.0"
 github "vim",            "1.0.2"
 github "sparrow",        "1.0.0"
-github "sequel_pro",     "1.0.0", :repo => "lucadegasperi/puppet-sequel_pro"
+github "sequel_pro",     "0.1.0", :repo => "todd/puppet-sequel_pro"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

@@ -134,14 +134,14 @@ GITHUBTARBALL
     inifile (0.9.0)
 
 GITHUBTARBALL
-  remote: lucadegasperi/puppet-sequel_pro
-  specs:
-    sequel_pro (1.0.0)
-
-GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (3.0.0)
+
+GITHUBTARBALL
+  remote: todd/puppet-sequel_pro
+  specs:
+    sequel_pro (0.1.0)
 
 DEPENDENCIES
   autoconf (= 1.0.0)
@@ -164,7 +164,7 @@ DEPENDENCIES
   nvm (= 1.0.0)
   repository (= 1.0.0)
   ruby (= 3.1.0)
-  sequel_pro (= 1.0.0)
+  sequel_pro (= 0.1.0)
   sizeup (= 1.0.0)
   sparrow (= 1.0.0)
   spotify (= 1.0.0)
