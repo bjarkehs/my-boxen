@@ -84,6 +84,11 @@ GITHUBTARBALL
     nvm (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-repository
+  specs:
+    repository (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (3.1.0)
@@ -94,9 +99,9 @@ GITHUBTARBALL
     sizeup (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-skype
+  remote: boxen/puppet-sparrow
   specs:
-    skype (1.0.1)
+    sparrow (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-spotify
@@ -114,6 +119,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.0.0)
@@ -122,6 +132,11 @@ GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
+
+GITHUBTARBALL
+  remote: lucadegasperi/puppet-sequel_pro
+  specs:
+    sequel_pro (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -147,12 +162,15 @@ DEPENDENCIES
   nginx (= 1.1.0)
   nodejs (= 1.0.0)
   nvm (= 1.0.0)
+  repository (= 1.0.0)
   ruby (= 3.1.0)
+  sequel_pro (= 1.0.0)
   sizeup (= 1.0.0)
-  skype (= 1.0.1)
+  sparrow (= 1.0.0)
   spotify (= 1.0.0)
   stdlib (= 3.0.0)
   sublime_text_2 (= 1.1.0)
   sudo (= 1.0.0)
+  vim (= 1.0.2)
   vlc (= 1.0.0)
 

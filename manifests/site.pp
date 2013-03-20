@@ -77,16 +77,21 @@ node default {
   # erlang
   include erlang
 
+  # vim
+  include vim
+
   # custom applications
   include chrome
   include firefox
-  include skype
+  #include skype
   include sublime_text_2
   include iterm2::stable
   include caffeine
   include sizeup
   include spotify
   include vlc
+  include sparrow
+  include sequel_pro
 
   # common, useful packages
   package {
