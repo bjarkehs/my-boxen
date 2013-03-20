@@ -55,6 +55,8 @@ node default {
   include hub
   include nginx
   include nvm
+  include autoconf
+  include libtool
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -71,6 +73,20 @@ node default {
   include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+
+  # erlang
+  include erlang
+
+  # custom applications
+  include chrome
+  include firefox
+  include skype
+  include sublime_text_2
+  include iterm2::stable
+  include caffeine
+  include sizeup
+  include spotify
+  include vlc
 
   # common, useful packages
   package {
