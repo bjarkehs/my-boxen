@@ -80,6 +80,9 @@ node default {
   # vim
   include vim
 
+  # terminal stuff
+  include autojump
+
   # custom applications
   include chrome
   include firefox
