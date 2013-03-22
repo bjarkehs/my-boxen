@@ -48,6 +48,7 @@ github "vim",            "1.0.2"
 github "sparrow",        "1.0.0"
 github "sequel_pro",     "0.1.0", :repo => "todd/puppet-sequel_pro"
 github "autojump",       "1.0.0"
+github "java",           "1.0.6"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

@@ -80,6 +80,9 @@ node default {
   # terminal stuff
   include autojump
 
+  # java
+  include java
+
   # custom applications
   include chrome
   include firefox
