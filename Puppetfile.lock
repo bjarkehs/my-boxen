@@ -109,6 +109,11 @@ GITHUBTARBALL
     sizeup (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sparrow
   specs:
     sparrow (1.0.0)
@@ -178,6 +183,7 @@ DEPENDENCIES
   ruby (= 3.1.0)
   sequel_pro (= 0.1.0)
   sizeup (= 1.0.0)
+  skype (= 1.0.1)
   sparrow (= 1.0.0)
   spotify (= 1.0.0)
   stdlib (= 3.0.0)

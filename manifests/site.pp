@@ -86,7 +86,7 @@ node default {
   # custom applications
   include chrome
   include firefox
-  #include skype
+  include skype
   include sublime_text_2
   include iterm2::stable
   include caffeine
