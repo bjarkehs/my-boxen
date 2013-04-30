@@ -95,6 +95,7 @@ node default {
   include vlc
   include sparrow
   include sequel_pro
+  include cyberduck
 
   # common, useful packages
   package {
